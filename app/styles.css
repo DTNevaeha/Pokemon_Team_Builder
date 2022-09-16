@@ -1,0 +1,64 @@
+body {
+  background-image: url("./images/pokeball3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Press Start 2P";
+}
+
+#teamList_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  gap: 50px;
+}
+
+.box_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 900px;
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  border: 20px solid #33afff;
+  border-image: url("./images/chat.png") 50;
+}
+
+#main_body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+}
+
+.teams {
+  background-image: url("./images/Box_Forest.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.pokeDiv{
+  display: flex;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px inherit;
+  border-radius: 10px;
+  margin-block: .5em;
+}
+
+::-webkit-scrollbar-thumb {
+  background: inherit;
+  border-radius: 10px;
+}
